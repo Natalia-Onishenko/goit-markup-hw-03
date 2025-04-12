@@ -121,18 +121,18 @@ font-family: "Roboto",
 .section-hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 120px 0;
+padding: 120px 0;
    
 }
 .hero-container {
-    
+padding: 188px 0;
     margin: auto;
 }
 .hero-h {
     display: block;
     align-items: center;
     padding-top: 188px;
-    width: 496px;
+    max-width: 496px;
     margin: auto;
     font-family: "Roboto",
         sans-serif;
@@ -144,7 +144,7 @@ font-family: "Roboto",
         color: #fff}
 
         .button-hero {
-            display: flex;
+            display: block;
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: row;
@@ -159,9 +159,10 @@ font-family: "Roboto",
             margin-right: auto;
             border-radius: 4px;
                 padding: 16px 32px;
-                width: 169px;
+                min-width: 169px;
                 height: 56px;
             color: #FFFFFF;
+            border: none;
         }
         .button {
             font-weight: 500;
