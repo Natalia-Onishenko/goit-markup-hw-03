@@ -187,8 +187,7 @@ padding: 188px 0;
          
          .feautures-container {
             display: flex;
-          max-width: auto;
-           
+          
          }
                  
 
@@ -196,6 +195,8 @@ padding: 188px 0;
         list-style: none;
        display: flex;
         gap: 24px;
+        padding: 0;
+        margin: 0;
     }
     .feautures-list-item {
        
