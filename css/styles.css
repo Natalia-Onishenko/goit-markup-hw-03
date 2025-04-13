@@ -243,9 +243,10 @@ padding: 188px 0;
        padding-bottom: 120px;
         background-color: #F4F4FD;
     }
-        .team-container {
-            display: flex;
-        }
+    img {
+        display: block;
+    }
+        
                 .team-hh {
                     
                    
@@ -259,6 +260,8 @@ padding: 188px 0;
                     text-transform: capitalize;
                     color: #2e2f42;
                     margin-bottom: 72px;
+                    
+                   
         
                 }
 
@@ -268,11 +271,12 @@ padding: 188px 0;
         display: flex;
         gap: 24px;
         margin-right: 0;
+        justify-content: space-between;
     }
     .team {
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
-        background-color: #4d5ae5;
+       
     }
  
 
